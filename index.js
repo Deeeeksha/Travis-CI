@@ -4,13 +4,13 @@ const port2 = process.env.PORT2 || 3001;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello welcome to my page!\n'
+  const msg = 'Hello All!\n'
   res.end(msg);
 });
 
 const server2 = http.createServer((req, res) => {
 	res.statusCode = 200;
-	const msg2 = 'Hello All!\n'
+	const msg2 = 'Welcome to my Knolx Session !\n'
 	res.end(msg2);
 });
 
